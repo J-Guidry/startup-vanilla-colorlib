@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding-right:50px;
+    position:fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+header li {
+    display:inline;
+    margin: 20px;
+}
+
+.class_anchor {
+    text-decoration: none;
+    color: #222;
+    font-size:12px;
+}

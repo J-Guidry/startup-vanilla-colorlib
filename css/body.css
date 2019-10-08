@@ -1,0 +1,11 @@
+
+body {
+    font-family: "poppins", sans-serif;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
