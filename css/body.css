@@ -4,6 +4,7 @@ body {
     color: #777777;
     font-size: 14px;
     font-weight: 300px;
+    position:relative;
 }
 
 *, *::before, *::after {

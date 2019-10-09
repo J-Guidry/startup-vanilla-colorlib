@@ -9,7 +9,7 @@
     margin-left: auto;
 }
 
-.banner_content{
+.banner-content{
     text-align:center;
     position:relative;
     top: 90px;
@@ -19,12 +19,12 @@
     width: 65%;
 }
 
-.banner_content p {
+.banner-content p {
     font-size: 14px;
     font-weight: 300px;
 }
 
-.banner_content h1{
+.banner-content h1{
     color: #222222;
     font-size: 40px;
     font-weight: 700px;

@@ -1,5 +1,6 @@
-@import "./linearicons.css";
 @import "./normalize.css";
-@import "./base.css";
+@import "./linearicons.css";
+@import "./body.css";
 @import "./navbar.css";
+@import "./mobile-nav.css";
 @import "./banner.css";

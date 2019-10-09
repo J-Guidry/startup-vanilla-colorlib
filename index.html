@@ -6,29 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mock Landing Page</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/body.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header class="header">
         <span>
-            <img src="img/logo.png" alt="logo">
+            <img src="img/logo.png" class="logo" alt="logo">
         </span>
-        <nav>
+        <nav class="navbar">
             <ul>
-                <li><a class="class_anchor" href="#">HOME</a> </li>
-                <li><a class="class_anchor" href="#">WE OFFER</a></li>
-                <li><a class="class_anchor" href="#">ABOUT</a> </li>
-                <li><a class="class_anchor" href="#">PROJECT</a> </li>
-                <li><a class="class_anchor" href="#">PRICE</a> </li>
+                <li><a class="class-anchor" href="#">HOME</a> </li>
+                <li><a class="class-anchor" href="#">WE OFFER</a></li>
+                <li><a class="class-anchor" href="#">ABOUT</a> </li>
+                <li><a class="class-anchor" href="#">PROJECT</a> </li>
+                <li><a class="class-anchor" href="#">PRICE</a> </li>
             </ul>
         </nav>
     </header>
+    <button class="toggle-mobile-nav">
+        <i class="lnr lnr-menu"></i>
+    </button>
+    <nav class="mobile-nav" > 
+        <ul>
+            <li><a href="#">HOME</a> </li>
+            <li><a href="#">WE OFFER</a></li>
+            <li><a href="#">ABOUT</a> </li>
+            <li><a href="#">PROJECT</a> </li>
+            <li><a href="#">PRICE</a> </li>
+        </ul>
+    </nav>
+    <div class="mobile-overlay" ></div>
     <main>
         <section class="banner">
-            <div class="banner_content">
+            <div class="banner-content">
                 <h1>All you want is here</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicin
                     g elit, sed do eiusmod tempor incidid
