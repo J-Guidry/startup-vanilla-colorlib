@@ -2,8 +2,8 @@ const header = document.querySelector("header");
 
 function toggle(){
     window.scrollY > 80 ? 
-    header.classList.add("scroll_header") :
-    header.classList.remove("scroll_header");
+    header.classList.add("scroll-header") :
+    header.classList.remove("scroll-header");
 }
 
 window.addEventListener("scroll", toggle, {passive: true});
@@ -17,7 +17,6 @@ const navIcon = navButton.firstElementChild;
 function toggleMobileNav(){
     navMenu.classList.toggle("is-active");
     overlay.classList.toggle("is-active");
-    // console.log(navIcon.classList.contains("lnr-menu"));
     if (navIcon.classList.contains("lnr-menu")){
         navIcon.classList.remove("lnr-menu");
         navIcon.classList.add("lnr-cross");
