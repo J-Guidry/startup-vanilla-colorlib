@@ -29,3 +29,9 @@
     font-size: 40px;
     font-weight: 700px;
 }
+
+@media(max-width:450px){
+    .banner-content{
+        top: 20px;
+    }
+}
