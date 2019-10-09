@@ -33,5 +33,6 @@
 @media(max-width:450px){
     .banner-content{
         top: 20px;
+        width:80%;
     }
 }
