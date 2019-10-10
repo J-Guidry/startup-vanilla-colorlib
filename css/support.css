@@ -1,0 +1,54 @@
+.support {
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.office {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.office img {
+    max-width: 100%;
+}
+
+.support-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background: #222;
+}
+
+.support-text p:first-child {
+    color: #df003a;
+}
+
+.support-text h1 {
+    color: white;
+    font-size: 35px;
+    line-height: 1.15em;
+}
+
+.support-text p {
+    color: #777
+}
+
+@media(max-width: 1000px){
+    .support {
+        display:block;
+    }
+    .office {
+        max-width: 100%;
+    }
+    .support-text {
+        max-width: 100%;
+        padding: 20px 40px 50px 30px;
+        background: #222;
+        height: auto;
+    }
+    
+
+}
