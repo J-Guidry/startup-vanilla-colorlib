@@ -1,18 +1,13 @@
 const header = document.querySelector("header");
-
+const navButton = document.querySelector(".toggle-mobile-nav");
+const navMenu = document.querySelector(".mobile-nav");
+const overlay = document.querySelector(".mobile-overlay");
+const playBtn = document.querySelector(".play-btn");
 function toggle(){
     window.scrollY > 80 ? 
     header.classList.add("scroll-header") :
     header.classList.remove("scroll-header");
 }
-
-window.addEventListener("scroll", toggle, {passive: true});
-window.addEventListener("touchmove", toggle, {passive: true});
-
-const navButton = document.querySelector(".toggle-mobile-nav");
-const navMenu = document.querySelector(".mobile-nav");
-const overlay = document.querySelector(".mobile-overlay");
-const navIcon = navButton.firstElementChild;
 
 function toggleMobileNav(){
     navMenu.classList.toggle("is-active");
@@ -26,5 +21,9 @@ function toggleMobileNav(){
     }
 
 }
-navButton.addEventListener("click", toggleMobileNav);
 
+window.addEventListener("scroll", toggle, {passive: true});
+window.addEventListener("touchmove", toggle, {passive: true});
+
+const navIcon = navButton.firstElementChild;
+navButton.addEventListener("click", toggleMobileNav);
