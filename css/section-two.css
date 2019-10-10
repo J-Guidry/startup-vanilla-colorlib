@@ -63,7 +63,22 @@
 
 @media(max-width: 700px){
     .section-two p{
-        width: 400px;
+        width: 330px;
+        margin: 0 auto;
+    }
+    .offers{
+        display:block;
+        margin-left: 35px;
+    }
+
+    .offer{
+        grid-template-columns: 100px 200px;
+    }
+}
+
+@media(max-width: 500px){
+    .section-two p{
+        width: 200px;
         margin: 0 auto;
     }
     .offers{
