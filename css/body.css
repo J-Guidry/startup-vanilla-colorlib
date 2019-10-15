@@ -5,7 +5,8 @@ body {
     font-size: 14px;
     font-weight: 300px;
     position:relative;
-    line-height: 1.7rem;
+    line-height: 1.5rem;
+    overflow: auto;
 }
 
 h1,h2,h3, h4{
