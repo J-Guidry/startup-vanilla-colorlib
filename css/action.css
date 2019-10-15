@@ -1,0 +1,46 @@
+.action-call{
+    background: url('../img/callaction-bg.jpg') center;
+    background-size: cover;
+    padding: 100px 0;
+    position:relative;
+    text-align: center;
+    margin: 40px 0;
+    z-index: 1;
+}
+
+.action-call::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+
+.action-call h1,
+.action-call p{
+    color: white;
+    max-width: 60%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.action-call a {
+    padding: 10px;
+    top: 5px;
+    text-decoration: none;
+    color: white;
+    background: red;
+}
+
+
+@media only screen and (max-width: 700px){
+    .action-call h1, 
+    .action-call p {
+        max-width: 95%;
+        margin: auto;
+    }
+}
