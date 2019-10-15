@@ -3,6 +3,7 @@ const navButton = document.querySelector(".toggle-mobile-nav");
 const navMenu = document.querySelector(".mobile-nav");
 const overlay = document.querySelector(".mobile-overlay");
 const playBtn = document.querySelector(".play-btn");
+
 function toggle(){
     window.scrollY > 80 ? 
     header.classList.add("scroll-header") :
@@ -20,7 +21,7 @@ function toggleMobileNav(){
         navIcon.classList.add("lnr-menu");
     }
 
-}
+ }
 
 window.addEventListener("scroll", toggle, {passive: true});
 window.addEventListener("touchmove", toggle, {passive: true});
