@@ -1,0 +1,107 @@
+.plans{
+    margin-bottom: 20px;
+}
+
+.plans-header{
+    text-align:center;
+}
+
+.plans-choices{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 50%;
+    margin:auto;
+}
+
+.plan {
+    height: 500px;
+    width: 300px;
+    margin: 20px;
+}
+
+.price {
+    display:grid;
+    grid-template-columns: 100px 150px;
+    grid-template-areas:
+        "label price"
+        "description price"
+    ;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom: #eee solid 1px;
+}
+
+.price-label {
+    grid-area: label;
+    margin:0;
+}
+
+.price-description {
+    grid-area: description;
+    margin:0;
+}
+
+.price-header {
+    grid-area: price;
+    font-size: 36px;
+    justify-self: end;
+    align-self: center;
+}
+
+.plan-description{
+    padding: 20px;
+    border-bottom: #eee solid 1px;
+}
+
+.plan-features {
+    padding: 20px;
+    background: #f9f9ff
+}
+.plans ul {
+    list-style-type: none;
+    padding: 0;
+}
+.plans li {
+    margin-bottom: 10px;
+}
+
+.buy {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration:none;
+    color: white;
+    background: #df003a;
+    padding: 10px;
+}
+
+.plan:hover .plan-description,
+.plan:hover .plan-features {
+    background: #df003a;
+    color: white;
+}
+
+.plan:hover .buy {
+    background: #222;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px){
+    .plans-choices{
+        max-width: 90%;
+        flex-wrap: nowrap;
+    } 
+}
+
+@media (max-width: 1000px){
+    .plans-choices{
+        max-width: 100%;
+        width: 90vw;
+        flex-wrap: wrap;
+    }
+    .plan {
+        width: 90vw;
+    }
+    .price {
+        grid-template-columns: 100px 1fr;
+    }
+}

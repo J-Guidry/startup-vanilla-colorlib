@@ -3,7 +3,7 @@ body {
     font-family: "poppins", sans-serif;
     color: #777777;
     font-size: 14px;
-    font-weight: 300px;
+    font-weight: 500px;
     position:relative;
     line-height: 1.5rem;
     overflow: auto;
@@ -16,3 +16,8 @@ h1,h2,h3, h4{
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+::selection {
+    background-color: #df003a;
+    color: #fff;
+  }
