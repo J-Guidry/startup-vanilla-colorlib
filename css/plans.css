@@ -1,5 +1,5 @@
 .plans{
-    margin-bottom: 20px;
+    margin-bottom: 55px;
 }
 
 .plans-header{
@@ -87,15 +87,15 @@
 
 @media (min-width: 1000px) and (max-width: 1300px){
     .plans-choices{
-        max-width: 90%;
+        max-width: 95%;
         flex-wrap: nowrap;
     } 
 }
 
 @media (max-width: 1000px){
     .plans-choices{
-        max-width: 100%;
-        width: 90vw;
+        max-width: 90%;
+        width: 80vw;
         flex-wrap: wrap;
     }
     .plan {
