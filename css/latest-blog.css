@@ -1,0 +1,55 @@
+.latest-header {
+    text-align:center;
+}
+
+.latest {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    width: 100%;
+    max-width: 90%;
+    margin: 40px auto;
+}
+
+@media (min-width: 1280px){
+    .post {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 1280px){
+    .latest {
+        max-width: 50%
+    }
+}
+
+.post li {
+    list-style-type: none;
+    display: inline;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tags {
+    padding-left: 0;
+}
+
+.tags a {
+    padding: 5px;
+    background: red;
+    color: white;
+    text-decoration: none;
+}
+
+.post-title {
+    text-decoration: none;
+}
+
+.post-description {
+    max-width: 80%;
+}
+
