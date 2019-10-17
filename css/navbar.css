@@ -50,7 +50,7 @@
     .toggle-mobile-nav{
         position: fixed;
         right: 13px;
-        top: 5px;
+        top: 15px;
         cursor: pointer;
         font-size: 100%;
         font-family:inherit;

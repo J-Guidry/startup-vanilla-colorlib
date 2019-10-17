@@ -1,7 +1,10 @@
+.offerings-container {
+    display: flex;
+    justify-content: center;
+}
+
 .offerings {
     text-align:center;
-    max-width: 90%; 
-    margin: 0 auto;
 }
 
 .offers{
@@ -37,7 +40,9 @@
 }
 
 @media (min-width: 500px) and (max-width: 900px){
-    .offerings{
+    .offerings-container{
+        max-width: 90%;
+        margin: auto;
         max-width: 90%;
     }
     .offer-heading {
@@ -46,8 +51,7 @@
     }
     .offers{
         display: block;
-        margin: auto;
-        max-width: 90%;
+
     }
     .offer{
         grid-template-columns: 100px minmax(300px, 1fr);
@@ -65,9 +69,10 @@
 }
 
 @media(max-width: 500px){
-    .offerings{
+    .offerings-container{
         margin:0;
-        max-width: 100%;
+        max-width: 90%;
+        justify-content: flex-start;
     }
     .offer-heading{
         margin: auto;
@@ -75,10 +80,6 @@
     .offers{
         display:block;
         margin-left: 0;
-    }
-
-    .offer{
-        grid-template-columns: 100px 290px;
     }
 
     .offer p {
@@ -92,8 +93,8 @@
     }
 }
 
-@media (max-width:330px){
-    .offerings p{
+@media (max-width:430px){
+    .offerings-container p{
         width:200px;
     }
 }

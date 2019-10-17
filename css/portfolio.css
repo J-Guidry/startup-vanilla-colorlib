@@ -1,7 +1,10 @@
+.portfolio-container {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 .portfolio {
     margin-top: 45px;
-    max-width: 80%;
-    margin: 0 auto;
 }
 
 .portfolio{
@@ -97,12 +100,16 @@
 }
 
 @media(max-width: 1000px){ 
-    .portfolio {
-        margin-top: 45px;
-        max-width: 90%;
+
+    .portfolio-container{
+        max-width: 70%;
         width: 100%;
         margin: auto;
     }
+    /* .portfolio {
+        margin-top: 45px;
+
+    } */
 
     .portfolio-items {
         display: block;

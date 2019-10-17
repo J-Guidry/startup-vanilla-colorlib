@@ -15,7 +15,7 @@
     padding-left: 0;
 }
 
-.container {
+.footer-container {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +40,7 @@
 }
 
 @media (max-width: 1000px) {
-    .container {
+    .portfolio-container {
         display: block;
         max-width: 80%;
     }
@@ -98,7 +98,7 @@
 }
 
 .social-media {
-    flex: 0 0 10%;
+    flex: 0 0 30%;
     align-self: center;
     padding-top: 30px;
 }
@@ -110,4 +110,11 @@
     height: 40px;
     width: 40px;
     cursor: pointer;
+}
+
+@media(max-width: 440px){
+    .newsletter button {
+        margin-top: 10px;
+        margin-left: 0;
+    } 
 }
