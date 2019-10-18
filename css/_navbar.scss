@@ -34,10 +34,7 @@
 .toggle-mobile-nav{
     all:unset;
 }
-@media(max-width: 650px){
-    /* body{
-        z-index:3;
-    } */
+@media screen and (max-width: 650px){
     .navbar li {
         display:none;
     }

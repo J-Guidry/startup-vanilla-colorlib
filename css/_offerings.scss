@@ -39,7 +39,7 @@
     margin-left: 25px;
 }
 
-@media (min-width: 500px) and (max-width: 900px){
+@media screen and (min-width: 500px) and (max-width: 900px){
     .offerings-container{
         max-width: 90%;
         margin: auto;
@@ -68,7 +68,7 @@
     }
 }
 
-@media(max-width: 500px){
+@media screen and (max-width: 500px){
     .offerings-container{
         margin:0;
         max-width: 90%;
@@ -93,7 +93,7 @@
     }
 }
 
-@media (max-width:430px){
+@media screen and (max-width:430px){
     .offerings-container p{
         width:200px;
     }

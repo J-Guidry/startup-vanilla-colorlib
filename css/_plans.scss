@@ -85,14 +85,14 @@
     background: #222;
 }
 
-@media (min-width: 1000px) and (max-width: 1300px){
+@media screen and (min-width: 1000px) and (max-width: 1300px){
     .plans-choices{
         max-width: 95%;
         flex-wrap: nowrap;
     } 
 }
 
-@media (max-width: 1000px){
+@media screen and (max-width: 1000px){
     .plans-choices{
         max-width: 90%;
         width: 80vw;

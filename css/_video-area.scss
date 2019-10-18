@@ -41,7 +41,7 @@
     z-index: 1;
 }
 
-@media(max-width: 950px){
+@media screen and (max-width: 950px){
     .video-area{
         display: block;
     }

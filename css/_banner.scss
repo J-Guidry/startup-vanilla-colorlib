@@ -31,7 +31,7 @@
     line-height: 1.2em;
 }
 
-@media(max-width:450px){
+@media screen and (max-width:450px){
     .banner-content{
         top: 20px;
         width:80%;
@@ -39,7 +39,7 @@
     }
 }
 
-@media(max-width:350px){
+@media screen and (max-width:350px){
     .banner-content{
         top: 10px;
         width:100%;

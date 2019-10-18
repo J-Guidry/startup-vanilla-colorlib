@@ -99,7 +99,7 @@
     opacity: 0;
 }
 
-@media(max-width: 1000px){ 
+@media screen and (max-width: 1000px){ 
 
     .portfolio-container{
         max-width: 70%;

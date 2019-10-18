@@ -35,14 +35,14 @@
     margin: 0;
 }
 
-@media (max-width: 1000px){
+@media screen and (max-width: 1000px){
     .testimonial-blocks {
         flex-wrap: wrap;
         max-width: 80%;
     }
 }
 
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
     .testimonial-blocks {
         max-width: 90%;
     }

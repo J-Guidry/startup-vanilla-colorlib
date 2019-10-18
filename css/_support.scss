@@ -36,7 +36,7 @@
     color: #777
 }
 
-@media(max-width: 1000px){
+@media screen and (max-width: 1000px){
     .support {
         display:block;
     }
