@@ -21,3 +21,11 @@ h1,h2,h3, h4{
     background-color: #df003a;
     color: #fff;
   }
+
+  ul {
+      padding-left: 0;
+  }
+
+  li {
+      list-style-type: none; 
+  }
